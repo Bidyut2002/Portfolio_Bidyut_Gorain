@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="./Porfolio_files/style.css">
+    <link href="./Porfolio_files/boxicons.min.css" rel="stylesheet">
+    <script src="./Porfolio_files/typed.umd.js.download"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="http://127.0.0.1:5500/index.html#" class="logo"><b>PORFOLIO.</b></a>
+        <nav class="navbar">
+            <a href="http://127.0.0.1:5500/index.html#" style="--i:1" class="active"><b>Home</b></a>
+            <a href="http://127.0.0.1:5500/index.html#" style="--i:2"><b>About</b></a>
+            <a href="http://127.0.0.1:5500/index.html#" style="--i:3"><b>Skills</b></a>
+            <a href="http://127.0.0.1:5500/index.html#" style="--i:4"><b>Portfolio</b></a>
+            <a href="http://127.0.0.1:5500/index.html#" style="--i:5"><b>Contact</b></a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Bidyut Gorain</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>Software Developer and AI &amp; ML Learner.</p>
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/bidyut-gorain-prl-3563a5206/" style="--i:7"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.facebook.com/bidyut.gorain.509/" style="--i:8"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/cocomelon_1619/" style="--i:9"><i class="bx bxl-instagram"></i></a>
+                <a href="https://chat.whatsapp.com/C6NCm1p9Nt4IVtBVnEzhV7" style="--i:10"><i class="bx bxl-whatsapp"></i></a>
+                <a href="https://youtube.com/@FreeOnlineCoursesbidyutmanas" style="--i:11"><i class="bx bxl-youtube"></i></a>
+            </div>
+            <a href="http://127.0.0.1:5500/index.html#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<script src="./Porfolio_files/main.js.download"></script>
+
+</body></html>
